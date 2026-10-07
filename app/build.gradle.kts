@@ -1,7 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
-    id("kotlin-kapt") // Añadir esta línea
+    alias(libs.plugins.legacy.kapt)
 }
 
 android {
